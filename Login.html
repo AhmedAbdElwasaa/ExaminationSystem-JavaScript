@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Log In</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="Css/log.css" />
+    
+</head>
+<body>
+    <form action="Exam.html" method="POST" class="contact-form">
+        <h1>Welcome</h1>
+        <input class="contact-form__txt1" placeholder="Your Name" type="text">
+        <div class="contact-form__gender">
+        <span>gender :</span>
+        <input class="contact-form__gender__r1" name="gender" value="male"  type="radio"><span> male</span>
+        <input class="contact-form__gender__r2" name="gender" value="female"  type="radio"> <span>female</span>
+        </div>     
+        <input class="contact-form__txt2" placeholder="Email Address"  type="text">
+        <input class="contact-form__txt3" placeholder="Your Password" type="password">
+        <input class="contact-form__txt4" placeholder="Re-Password" type="password">
+        <select class="contact-form__select1" placeholder="Country"  name="country">
+                        <option value="" disabled selected hidden>Country...</option>
+                        <option value="egypt">Egypt</option>      
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                      </select>                                  
+        <a class="btn btn--secondary" value="submit" data-image="" href="Exam.html">
+                        log in
+                    </a>
+    </form>
+<script src="JS/log.js"></script>
+</body>
+</html>
